@@ -21,10 +21,10 @@ code {
   font-family: monospace;
 }
 
-/* ── Layout ── */
+/* Layout */
 .app { max-width: 820px; margin: 0 auto; padding: 0 1.2rem 4rem; }
 
-/* ── Header ── */
+/* Header */
 .site-header {
   background: #F8C902;
   padding: 0.85rem 1.4rem;
@@ -55,10 +55,10 @@ code {
 
 .site-header nav a:hover { background: #ffffff; }
 
-/* ── Main ── */
+/* Main */
 .main-content { display: flex; flex-direction: column; gap: 1.3rem; }
 
-/* ── Section Card ── */
+/* Section Card */
 .section-card {
   background: #ffffff;
   border-radius: 18px;
@@ -94,10 +94,10 @@ code {
 
 .concept { color: #555555; font-size: 0.85rem; }
 
-/* ── Task 1: Buttons ── */
+/* Task 1: Buttons */
 .button-row { display: flex; flex-wrap: wrap; gap: 0.8rem; align-items: center; }
 
-/* ── Task 2A: Toggle ── */
+/* Task 2A: Toggle */
 .toggle-wrapper { display: flex; align-items: center; gap: 1.2rem; }
 
 .toggle-label {
@@ -124,7 +124,7 @@ code {
 
 .toggle-btn:hover { background: #333333; transform: translateY(-1px); }
 
-/* ── Task 2B: Mirror ── */
+/* Task 2B: Mirror */
 .mirror-wrapper { display: flex; flex-direction: column; gap: 0.7rem; }
 
 .mirror-input {
@@ -152,10 +152,10 @@ code {
 
 .placeholder-hint { color: #aaaaaa; font-weight: 400; font-style: italic; }
 
-/* ── Task 4: Traffic Light ── */
+/*  Task 4: Traffic Light */
 .traffic-row { display: flex; flex-wrap: wrap; gap: 0.8rem; align-items: center; }
 
-/* ── Task 5: Todo ── */
+ /* Task 5: Todo  */
 .todo-wrapper { display: flex; flex-direction: column; gap: 0.9rem; }
 
 .todo-controls { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
@@ -222,9 +222,9 @@ code {
   white-space: nowrap;
 }
 
-/* ────────────────────────────────
-   GRID LAYOUT — side by side
-──────────────────────────────── */
+
+   /* GRID LAYOUT — side by side */
+
 
 /* override the old stack layout */
 .main-content {
